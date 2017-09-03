@@ -9,6 +9,14 @@
   },
   "author": "Victor Pfautz",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vpfautz/chart_utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vpfautz/chart_utils/issues"
+  },
+  "homepage": "https://github.com/vpfautz/chart_utils#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-typescript": "^3.2.2",
