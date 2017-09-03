@@ -1,0 +1,9 @@
+{
+  "files": [
+    "./chart_utils.ts"
+  ],
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "target": "es5"
+  }
+}
