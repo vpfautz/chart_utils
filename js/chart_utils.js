@@ -46,7 +46,12 @@ var Chart = /** @class */ (function () {
         var ad = [];
         for (var _i = 0, ohlc_1 = ohlc; _i < ohlc_1.length; _i++) {
             var d = ohlc_1[_i];
-            ad.push(((d.c - d.l) - (d.h - d.c)) / (d.h - d.l) * d.v);
+            if (d.h == d.l) {
+                ad.push(0);
+            }
+            else {
+                ad.push(((d.c - d.l) - (d.h - d.c)) / (d.h - d.l) * d.v);
+            }
         }
         var cmf = [];
         for (var t = 0; t < ohlc.length; t++) {
@@ -79,6 +84,8 @@ var Chart = /** @class */ (function () {
             var d = ohlc_2[_i];
             avg_gain = ((n - 1) * avg_gain + gain(d)) / n;
             avg_loss = ((n - 1) * avg_loss + loss(d)) / n;
+            if (avg_loss == 0)
+                avg_loss = 1e-10;
             var rs = avg_gain / avg_loss;
             rsi.push(100 - 100 / (1 + rs));
         }
