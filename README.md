@@ -5,12 +5,12 @@ Some functions to calculate chart studies.
 ## Usage
 
 ```
-npm i --save chart_utils
+npm install chart_utils
 ```
 
 ## Example
 
-With typescript:
+With TypeScript:
 ```
 import chart_utils from "chart_utils";
 

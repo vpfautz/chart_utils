@@ -2,6 +2,14 @@
   "name": "chart_utils",
   "version": "1.0.3",
   "description": "Some functions to calculate chart studies.",
+  "keywords": [
+    "chart",
+    "macd",
+    "rsi",
+    "stocks",
+    "coins",
+    "chaikin"
+  ],
   "main": "js/chart_utils.js",
   "typings": "definitions/chart_utils",
   "scripts": {
