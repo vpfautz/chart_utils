@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/vpfautz/chart_utils#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-typescript": "^3.2.2",
     "typescript": "^2.5.2",
     "merge2": "^1.1.0"
